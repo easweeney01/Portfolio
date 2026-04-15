@@ -1,18 +1,22 @@
 :root {
+    --mint: #77FFcc;
     background-color: #1b1b1b;
+
 }
 
 h1 {
     color:#fff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
+    text-align: center;
 }
 
 h2 {
-    color:#68ffaf;
+    color:var(--mint);
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: normal;
+    text-align: center;
 }
 
 i {
@@ -22,6 +26,104 @@ i {
 }
 
 b {
-    color: #68ffaf;
+    color: var(--mint);
 }
 
+.game {
+    font-weight:bold;
+    color:#fff;
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    border: 3px solid #fff;
+
+    transition: all 0.3s ease;
+
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    
+}
+
+.game:hover {
+    border: 10px solid;
+    font-size: large;
+    background-color: #444;
+    text-shadow: #fff 0px 0px 1rem;
+}
+
+.projectbuttons {
+    display: flex;
+
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.rat {
+    background-image: url("Assets/Projects/Rat\ Lord.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(52, 52, 52, 0.5);
+    background-blend-mode: multiply;
+}
+
+.terra {
+    background-image: url("Assets/Projects/Terraforma.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(52, 52, 52, 0.5);
+    background-blend-mode: multiply;
+}
+
+.hell {
+    background-image: url("Assets/Projects/Hell\'s\ Arena.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(52, 52, 52, 0.5);
+    background-blend-mode: multiply;
+}
+
+.other {
+    background-image: url("Assets/Projects/OtherProjects.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(52, 52, 52, 0.5);
+    background-blend-mode: multiply;
+}
+
+.rat:hover {
+    border-color: rgb(247, 255, 101);
+    color: rgb(247, 255, 101);
+}
+
+.hell:hover {
+    border-color: #f88;
+    color: #f88;
+}
+
+.terra:hover {
+    border-color: #afa;
+    color: #afa;
+}
+
+.other:hover {
+    border-color: #8ff;
+    color: #8ff;
+}
+
+.landingtext {
+    margin:5%;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+    border: 3px solid var(--mint);
+    padding: 1rem;
+}
