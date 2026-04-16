@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emanuel Sweeney, Software Engineer</title>
     <link rel = "stylesheet" href="style.css">
+    <link rel = icon type="image/x-icon" href="Assets/icon.png">
+    <script src="my-header.js" defer></script>
+    <script src="my-footer.js" defer></script>
 </head>
 <body>
-    <div class = "landingtext">
-        <div style="display: flex; justify-content: center;">
+    <my-header></my-header>
+    <div class = "landingtext" style="margin:5%; margin-bottom: 2rem;" >
             <img src="Assets/me.png" width="300px"/>
-        </div>
         <h1>Emanuel Sweeney</h1>
         <h2>Game Developer</h2>
 
-        <i>
-            Hi there! Welcome to my portfolio.
+        <i style="text-align: center;">
+            Hi there! Welcome to my portfolio. 
             <br>I'm Emanuel Sweeney, a <b>software engineer and  game developer</b>. 
             <br>I graduated in 2025 from Worcester Polytechnic Institute with a <b>double major</b> in Computer Science and Interactive Media and Game Development. 
             <br>I am currently continuing my Computer Science studies there in <b>pursuit of a Master's Degree</b>.
+            <br>I made this site by hand with HTML, CSS, and some JavaScript.
             <br>While you're here, why not look at my <b>projects below?</b>
         </i>    
     </div>
@@ -32,5 +35,9 @@
         <button class="game hell">Hell's Arena</button>
         <button class="game other">Other Projects</button>
     </div>
+
+    <br/>
+
+    <my-footer></my-footer>
 </body>
 </html>
