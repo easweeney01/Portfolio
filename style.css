@@ -289,3 +289,20 @@ b {
     color:white;
     font-family: Arial, Helvetica, sans-serif; 
 }
+
+.ratlordpage {
+    background-image:
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)),
+        url(/Assets/Rat\ Lord\ Poster.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projecth2 {
+    margin-bottom:0rem;
+}
+
+.projectp {
+    margin-top:0.25rem;
+}
