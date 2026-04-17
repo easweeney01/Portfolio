@@ -88,7 +88,7 @@ b {
 }
 
 .hell {
-    background-image: url("Assets/Projects/Hell\'s\ Arena.png");
+    background-image: url("Assets/Projects/HellsArenaTitle.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -248,7 +248,7 @@ b {
 
     font-family: Arial, Helvetica, sans-serif;
 
-    height: 2rem;
+    min-height: 2rem;
     border-color: currentColor;
     background-color: color-mix(in srgb, currentColor, black 60%);
     border-radius: 8px;
@@ -268,6 +268,26 @@ b {
 
 .bubblediv {
     text-wrap: wrap; display: flex; justify-content: center; gap: 0.5rem;
+}
+
+.bub-art {
+    color:#fb9;
+}
+
+.bub-eng {
+    color:#faf
+}
+
+.bub-lan {
+    color:#f99;
+}
+
+.bub-pro {
+    color:#ff9;
+}
+
+.bub-tool {
+    color:#aef;
 }
 
 .borderbright {
@@ -290,10 +310,42 @@ b {
     font-family: Arial, Helvetica, sans-serif; 
 }
 
+li {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.homepage {
+    background-image:
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(/Assets/HomePageBG.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .ratlordpage {
     background-image:
-        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)),
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
         url(/Assets/Rat\ Lord\ Poster.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hellsarenapage {
+    background-image:
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),
+        url(/Assets/Projects/HellsArenaBG.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.terraformapage {
+    background-image:
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(/Assets/Projects/TerraformaBG.png);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -305,4 +357,73 @@ b {
 
 .projectp {
     margin-top:0.25rem;
+}
+
+td {
+    padding: 0.25rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.thead {
+    padding: 0.5rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.dlnbtn {
+    padding: 1rem; 
+    border-style: dotted; 
+    border-width: 2px; 
+    border-radius : 5px; 
+    border-color: currentColor; 
+    text-align: center; 
+    color: #aff; 
+    font-weight: bold; 
+    font-size: x-large; 
+    text-decoration: none;
+    transition: all 0.3s ease-in-out
+}
+
+.dlnbtn:hover {
+    color: rgb(245, 255, 255); 
+    font-weight: bolder;
+}
+
+.centerimg {
+    display: block;
+    margin:0px;
+    width:90%;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon {
+    width:75px;
+    height:auto;
+    border-radius: 5px;
+}
+
+.bigicon {
+    width:115px;
+    height:auto;
+    border-radius: 5px;
+}
+
+.biggericon {
+    width: 300px;
+    height:auto;
+    border-radius: 5px;
+}
+
+.tdc {
+    justify-content: center;
+    text-align: center;
+}
+
+.tdp {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }

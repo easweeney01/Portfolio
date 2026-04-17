@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emanuel Sweeney's Terraforma</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel = icon type="image/x-icon" href="Assets/icon.png">
+    <script src="my-header.js" defer></script>
+    <script src="my-footer.js" defer></script>
+    <script src="tab.js" defer></script>
+</head>
+<body class="terraformapage">
+    <my-header></my-header>
+    <div class = "landingtext" style="margin:5%; margin-bottom: 2rem; flex-direction: row; justify-content: center; align-items: start; flex-wrap: wrap; gap:0.5rem;" >
+        <div style="display:flex; justify-content: center; flex:0.5; flex-direction: column; align-items: center; text-align: center;">
+            <img src="Assets/Projects/Terraforma.png" width="300px" style="border-radius: 10px;"/>
+            <hr style="background-color: white; width:90%; ">
+            <br>
+            <a href="Assets/Projects/Terraforma.zip" class="dlnbtn">Download Here!</a>
+            <br>
+            <h2 class="projecth2"> Skills Used</h2>
+            <div class="bubblediv">
+                <p class="bubble bub-eng">Unity</p>
+                <p class="bubble">Software Engineering</p>
+                <p class="bubble">Combat Systems Engineering</p>
+                <p class="bubble">Game Design</p>
+                <p class="bubble">C#</p>
+            </div>
+            <div class="bubblediv">
+                <p class="bubble bub-tool">Systems Design</p>
+                <p class="bubble bub-tool">Level Design</p>
+                <p class="bubble bub-art">UI</p>
+            </div>
+
+            <h2 class="projecth2">Game Engine</h2>
+            <p class="projectp">Unity</p>
+            
+            <h2 class="projecth2">Development Period</h2>
+            <p class="projectp">Fall 2024 - Spring 2025</p>
+
+            <h2 class="projecth2">Role</h2>
+            <p class="projectp">Programmer<br>Gameplay Engineer<br>Level Designer<br>Spells Designer<br>UI Designer</p>
+
+            <h2 class="projecth2">Teammates</h2>
+            <p class="projectp">Andrew Simonini<br>Thomas Branchaud<br>Jade Logan<br>Mackenzie Appleyard<br>Juliet Morin<br>Naomi Gelfond</p>
+
+            <h2 class="projecth2">Controls</h2>
+            <br>
+            <table>
+                <tr><td><b>WASD</b></td><td>Move Camera</td></tr>
+                <tr><td><b>Q/E</b></td><td>Rotate Camera</td></tr>
+                <tr><td><b>Left Click</b></td><td>Select</td></tr>
+                <tr><td><b>Right Click</b></td><td>Deselect</td></tr>
+                <tr><td><b>Enter</b></td><td>End Turn</td></tr>
+                <tr><td><b>Shift</b></td><td>2x Speed</td></tr>
+                <tr><td><b>V</b></td><td>Toggle Tree Visibility</td></tr>
+            </table>
+
+        </div>
+        <div style="justify-content: center; flex:1">
+            <h1 style="color:#afa; font-weight:bold; text-align: center;">TERRAFORMA</h1>
+
+            <img class="centerimg" src="Assets/Projects/TerraformaGameplay.png"/>
+            <p style="text-align: left; ">
+                <i>Change the world in this tactical RPG with terrain-changing elemental magic.</i>
+                <br/><br>
+                Terraforma is a tactical strategy RPG where the main characters can change the terrain with a mix of elemental powers. Lead a small party to rout the enemy as you burn, build, and soak the land!
+                <br><br>
+                This was my year-long undergraduate capstone project at Worcester Polytechnic Institute for both my Computer Science and IMGD majors.
+                <br><br>
+                <h2 style="margin-bottom: 0.5rem;">My Role</h2>
+                In a small team of six, every member had to put their all in. This resulted in a few of the developers taking up notable secondary roles. In my case: 
+                <ol>
+                    <li>Firstly, I worked as a primary combat enginer for the game's magic to give the players fun powers that are cohesive with the game's primary terrain changing mechanic.</li>
+                    <li>Additionally, I designed the game's levels with spell synergy, player choice, and increasing challenge in mind.</li>
+                    <li>Lastly, I also made pixel art and icons for the game's UI. Much of the pixel art made it as merchandising for the game, too!</li>
+                </ol>
+
+                As with the other developers, I aided in the game's balance and design as well.
+
+                <br>
+                <h2 style="margin-bottom: 0.5rem;">Burn, Flood, Break, Quake</h2>
+                The key element of the game is the elemental magic system. The fire, earth, and sea magic is the key method to attack foes, boost abilities, and change the terrain around you. <br><br>
+                First comes our fire hero, <b style="color: #fa8;">Lancin</b> the sun knight. His pyromancy mixes destructive ranged attacks and support spells.<br>
+                Next, <b style="color: #fd8;">Wold</b> breaks the mold as a geokinetic professional wrestler. His ability to tank a hit takes form in defensive magic that denies the enemy free movement. 
+                Finally, <b style="color: #aff;">Althea</b> splashes down as a swashbuckling master of the waves. Her abilities are the most balanced, with a mix of status boosts, terrain changes, and attacks. 
+                The spells that the player can dish out can take many forms:
+                <br><br>
+
+                <table>
+                    <thead>
+                         <tr><td colspan="1"><b>Character</b></td><td colspan="1"><b>Spell</b></td><td colspan="2"><b>Effect</b></td></tr>
+                    </thead>
+                    <tr>
+                        <td rowspan="4"><b>Lancin</b></td>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_Fireball.png">
+                            <p class="tdp">Fireball</p>
+                        </td>
+                        <td>
+                            <i>
+                                Drops a fireball on a set 3x3 location, dealing damage and leaving flames behind.
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_DragonBreath.png">
+                            <p class="tdp">Dragon Breath</p>
+                        </td>
+                        <td>
+                            <i>
+                                Spews massive flames in any direction. Deals a lot of damage but costs a lot of MP. 
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_SupportFlames.png">
+                            <p class="tdp">Support Flames</p>
+                        </td>
+                        <td>
+                            <i>
+                                Grants strength to characters currently standing in fire.
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_Hearthfire.png">
+                            <p class="tdp">Hearthfire</p>
+                        </td>
+                        <td>
+                            <i>
+                                Sets a pink flame that rejuvenates the HP of those who feel its warmth.
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4"><b>Wold</b></td>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_RockWall.png">
+                            <p class="tdp">Wall</p>
+                        </td>
+                        <td>
+                            <i>
+                                Makes three rock walls to impede the foe's path.
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_Shatterpoint.png">
+                            <p class="tdp">Shatterpoint</p>
+                        </td>
+                        <td>
+                            <i>
+                                Breaks rock walls in front of you, leaving unsteady terrain and hitting foes behind it.
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_Shove.png">
+                            <p class="tdp">Shove</p>
+                        </td>
+                        <td>
+                            <i>
+                                Forcefully pushes an ally, enemy, or rock wall away, damaging foes if they hit a wall.
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_StoneBody.png">
+                            <p class="tdp">Stone Body</p>
+                        </td>
+                        <td>
+                            <i>
+                                Hunkers down in stone armor before the sharp gravel explodes back on the foes that struck you.
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4"><b>Althea</b></td>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_TidalWave.png">
+                            <p class="tdp">Tidal Wave</p>
+                        </td>
+                        <td>
+                            <i>
+                                Strikes with a wave at melee range, pushing foes back and drenching the terrain.
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_Lightning.png">
+                            <p class="tdp">Lightning</p>
+                        </td>
+                        <td>
+                            <i>
+                                Strikes with a thunderbolt at long range, electrifying wet terrain to hit adjacent foes.
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_SpeedSailing.png">
+                            <p class="tdp">Smooth Sailing</p>
+                        </td>
+                        <td>
+                            <i>
+                                Dramatically increases movement speed.
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdc">
+                            <img class="icon" src="Assets/Projects/TerraformaIcons/TF_Mist.png">
+                            <p class="tdp">Mist Cloud</p>
+                        </td>
+                        <td>
+                            <i>
+                                Swirls up a mist that increases evasion for people inside.
+                            </i>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+
+                <h2 style="margin-bottom: 0.5rem;">Level Design</h2>
+                In addition to spell engineering, was the game's primary level designer.
+                Several goals were kept in mind during this task. 
+                Mobility was highly important - if it took too long to get to an enemy and fight, players may become bored. I designed levels to be crossed end to end in five turns. With the game's enemies approaching the heroes, everything is close enough together to not become a slog while allowing for long-term strategies.  
+                Additionally, I needed to consider the game's magic system and give each character and element some time to shine and opportunities to use them. I also needed to balance each character's domains with the terrain so that no one was obsolete in each level.
+                <br><br>
+                I designed the stage concepts with a tile set from an older project. Blue flags indicate allies, and red and black ones enemies. After playtesting, we decided to significantly cut down on the amount of enemies that we have in each stage.
+                <br><br>
+                Each element in the game has a unique effect when it connects with certain terrain. For instance:<br>
+                <ul>
+                    <li>Trees provide evasion for those hiding in them... until they get burned down.</li><br>
+                    <li>Dirt terrain turns into movement-inhibiting mud when drenched by water magic.</li><br>
+                    <li>Lightning magic spreads to adjacent water tiles when it hits wet terrain and zaps foes. </li>
+                </ul><br>
+                
+                <hr>
+                <img class="biggericon" src="Assets/Projects/TerraformaLvl1.webp"><br><br>
+                A first level needs to be both a tutorial and a playground; it should teach the player how the game works while also keeping them captivated.
+                To this end, I decided to make the opening level a scuffle with two small groups to the east and west. It's a wide open field, but there's just enough cover to strategize around with Wold's walls, Trees dot the landscape which provide extra cover... unless a fireball takes them out. The primary terrain of grass is affected by fire and stone alike, and becomes dirt when burned to get flooded with water.
+                <br>
+                <br>
+
+                <hr>
+                <img class="biggericon" src="Assets/Projects/TerraformaLevelDesign.webp"><br><br>
+                The second level ramps the difficulty up significantly. There are far more enemies, and the battlefield is separated into three islands that give the heroes less room to move around. The presence of more water, however, gives Althea's lightning magic a bit more time to shine.
+
+                <br>
+                <br>
+                <hr>
+                <img class="biggericon" src="Assets/Projects/TerraformaLvl3.webp"><br><br>
+                Finally, the third level takes the game's concept and flips it on its head. Here, the battle takes place on a fleet of ships. The wooden terrain falls away into water when burned, making every fire attack cut off paths and even result in a game over if you aren't careful. Can you rout the enemy when your spells are such a risk?
+
+                <br>
+                <br>
+                <h2 style="margin-bottom: 0.5rem;">Icons</h2>
+                I also picked up a tertiary role as a UI Icon Designer for the game. I did the pixel icons for the spells above as well as some of the status effects, drawn in ibisPaintX. Check out some of them below!
+                <br><br>
+                <div style="width:100%; text-align: center;">
+                    <img class="bigicon" src="Assets/Projects/TerraformaIcons/ST_Burnout.png" title="Backfire - A dramatic status boost that leaves the user in burnout.">
+                    <img class="bigicon" src="Assets/Projects/TerraformaIcons/ST_Freeze.png" title="Freeze">
+                    <img class="bigicon" src="Assets/Projects/TerraformaIcons/ST_BlueFire.png" title="Blue Fire - Lancin's next fire attack uses hotter blue flames.">
+                    <img class="bigicon" src="Assets/Projects/TerraformaIcons/ST_Poison.png" title="Poison">
+                    <img class="bigicon" src="Assets/Projects/TerraformaIcons/ST_RoldAttack.png" title="Rock Armadillo Rold : Attack Mode">
+                    <img class="bigicon" src="Assets/Projects/TerraformaIcons/ST_Hearthfire.png" title="Hearthfire - Stands in healing flames.">
+                    <img class="bigicon" src="Assets/Projects/TerraformaIcons/ST_SupportFlames.png" title="Support Flame powerup">
+                </div>
+                
+                <br>
+            </p> 
+
+        </div>   
+    </div>
+
+    <br/>
+
+    <my-footer></my-footer>
+</body>
+</html>

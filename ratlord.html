@@ -4,18 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content = "IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emanuel Sweeney's Rat Lord'</title>
+    <title>Emanuel Sweeney's Rat Lord</title>
     <link rel = "stylesheet" href="style.css">
     <link rel = icon type="image/x-icon" href="Assets/icon.png">
     <script src="my-header.js" defer></script>
     <script src="my-footer.js" defer></script>
+    <script src="tab.js" defer></script>
 </head>
 <body class="ratlordpage">
     <my-header></my-header>
     <div class = "landingtext" style="margin:5%; margin-bottom: 2rem; flex-direction: row; justify-content: center; align-items: start; flex-wrap: wrap; gap:0.5rem;" >
         <div style="display:flex; justify-content: center; flex:0.5; flex-direction: column; align-items: center; text-align: center;">
             <img src="Assets/Projects/Rat Lord.png" width="300px" style="border-radius: 10px;"/>
+            <hr style="background-color: white; width:90%; ">
             <br>
+            <a href="Assets/Projects/Rat Lord Demo - Windows.zip" class="dlnbtn">Download Here!</a>
+            <br>
+            <h2 class="projecth2"> Skills Used</h2>
+            <div class="bubblediv">
+                <p class="bubble bub-eng">GameMaker</p>
+                <p class="bubble">Software Engineering</p>
+                <p class="bubble">Game Design</p>
+            </div>
+            <div class = "bubblediv">
+                <p class="bubble bub-art">UI Design</p>
+                <p class="bubble bub-art">Animation</p>
+                <p class="bubble bub-art">Pixel Art</p>
+                <p class="bubble bub-art">Sound Design</p>
+            </div>
+
             <h2 class="projecth2">Game Engine</h2>
             <p class="projectp">GameMaker</p>
             
@@ -27,16 +44,111 @@
 
             <h2 class="projecth2">Teammates</h2>
             <p class="projectp">None this time -- just me!</p>
+
+            <h2 class="projecth2">Controls (Keyboard)</h2>
+            <br>
+            <table>
+                <thead style="color: var(--mint);">
+                    <tr>
+                        <th colspan="2" class="thead">Player 1</th>
+                    </tr>
+                </thead>
+                <tr><td><b>WASD</b></td><td>Move</td></tr>
+                <tr><td><b>G</b></td><td>Attack</td></tr>
+                <tr><td><b>H</b></td><td>Special</td></tr>
+                <tr><td><b>V</b></td><td>Jump</td></tr>
+                <tr><td><b>B</b></td><td>Block</td></tr>
+                <tr><td><b>C</b></td><td>Taunt</td></tr>
+            </table>
+            <br>
+            <table>
+                <thead style="color: var(--mint);">
+                    <tr>
+                        <th colspan="2" class="thead">Player 2</th>
+                    </tr>
+                </thead>
+                <tr><td><b>Arrows</b></td><td>Move</td></tr>
+                <tr><td><b>Num1</b></td><td>Attack</td></tr>
+                <tr><td><b>Num2</b></td><td>Special</td></tr>
+                <tr><td><b>Num0</b></td><td>Jump</td></tr>
+                <tr><td><b>Num3</b></td><td>Block</td></tr>
+                <tr><td><b>Num4</b></td><td>Taunt</td></tr>
+            </table>
+
+
         </div>
         <div style="justify-content: center; flex:1">
             <h1 style="color:#f7ff65; font-weight:bold; text-align: center;">RAT LORD</h1>
 
-            <p style="text-align: left;">
-                Rat Lord is a platform fighter with a roguelike twist. With every passing round, players choose upgrades to boost the power of their rats.
-                <br/>Set a fiery bonus to your attacks, summon projectiles, heal by crouching in place, create whole new moves -- anything is possible with the possible combinations of perks you can collect!
-                <br/><br/>
-            </p> 
+            <p style="text-align: left; ">
+                Rat Lord is a platform fighter with a roguelike twist. With every passing round, players choose upgrades to boost the power of their rats. Give your attacks a fiery edge, summon projectiles, heal by crouching in place, create whole new moves -- anything is possible with the possible combinations of perks you can collect!
+                <br/>
+                <h2 style="margin-bottom: 0.5rem;">Development</h2>
+                <img src="Assets/Projects/RatLordJam.png" class="centerimg"><br>
+                Rat Lord began life as a game jam in October 2024. The theme was "creepy-crawlies", and my love of platform fighters led me to making a game of said genre. I also had been playing roguelikes during that time, so I decided to implement randomly-allocated perks. It seemed to be highly popular, with some people even privately hosting tournaments!<br>
+                Eventually, the game rapidly outgrew its game jam origins, and I sought to make a more complete version of the game. Under my LLC Gold Cosmos Games, I have been passionately working to make this a fighting game reality. It has currently been under development for a 18 months, with its progress well on its way! <br>
+                <br>
+                <a style="color:#aff; font-weight: bold;" href="https://www.youtube.com/@GoldCosmosGameDevelopment">Footage of the game can be seen on the Gold Cosmos Games YouTube channel.</a>
+                <br><br>
 
+                <h2 style="margin-bottom: 0.5rem;">Systems</h2>
+                The key gameplay system in Rat Lord is the perks. After each round, players are given three perks to pick up. They affect all manners of gameplay, including:
+                <ul style="color:#fff">
+                    <li>Movement (extra jumps, increased speed)</li>
+                    <li>Attacks (chargeable bursts, projectile summons)</li>
+                    <li>Status Effects (resistance to poison, causing burn effects, freezing foes)</li>
+                    <li>Items (raining food, fireball launching)</li>
+                    <li>Defense (reflecting parries, burst escape options)</li>
+                </ul>
+                
+                To spice up the platform fighter genre, additional mechanics were added: when your meter is full, pressing meter causes you to do a Burst that pushes foes away. Players can also climb by pressing against walls for quick recoveries.
+                <br/><br>
+
+                <h2 style="margin-bottom: 0.5rem;">Art</h2>
+                <img class="centerimg" src="Assets/Projects/RatLordArt.png">
+                I created all of the art assets in GameMaker studio's sprite editor. This includes characters, stages, perks, items, and menu designs. I'm especially proud of the character art, which currently consists of two full sets of 22 animations for attacks, movement, and character expression.<br>
+
+                In addition, I decided that for improved visual clarity, characters would have color-coded outlines.<br>
+                I also worked with shaders to make palette swaps for characters and impact frames when characters get KO'ed.
+                
+                <br><br>
+
+                <h2 style="margin-bottom: 0.5rem;">User Interface</h2>
+                <img src="Assets/Projects/Rat Lord HUD.png" width="100%"/><br>
+                User Interface (UI) is one of the most important things in a fast-paced game like Rat Lord. Players need to know what's going on quickly, so I put together a few details in the HUD to maximise legibility.<br>
+                Every element is designed to give the players essential information.<br/><br>
+                
+                For one, players are color-coded and have portraits so that they can tell who they are.
+                The portraits also change their expression when they get hit! 
+                
+                Health is displayed in two forms: as numbers for specific detail and a color-thematic cheese wheel for rough estimates at a glance.
+
+                The shape behind the character's portrait, in addition to being a nice frame, also doubles as a meter for the game's Burst meter to let players know they can escape a combo.
+
+                Points are displayed to the right, with the number becoming yellow if the player is close to victory.
+
+                Lastly, the perks for the game are displayed as microscopic icons below the HUD. 
+                
+                <br><br>
+
+                <img src="Assets/Projects/RatLordUI.png" class="centerimg"/><br>
+                When a round ends, everyone needs to pick up a perk from their corner of the screen. The current one you're hovering over has its edge colored the player color, and a rat icon stamps it when you make your decision.
+                <br><br>
+
+                <h2 style="margin-bottom: 0.5rem;">Sound Design</h2>
+                I collected sounds from freesound.net as samples, then I edited them with Audacity to make the sounds you hear in game.<br>
+                I have yet to include music, but I intend to begin soon using FL Studio. 
+
+                <br><br>
+                <h2 style="margin-bottom: 0.5rem;">Awards and Achievements</h2>
+                <img src="Assets/Projects/RatLordJoyArt.webp" class="centerimg"/><br>
+                In its brief development life, Rat Lord has quickly amassed a few achievements of note. <br>
+                At JoyArt, an intercollegiate game art event, Mouslow's animations were a nominee for 2025's Best Pixel Art category.
+                Nicolai's full sprite animation sheet won Best Pixel Art the next year.<br>
+                
+                Additionally, Rat Lord has had the honor to be presented at WPI's booth at PAX East in 2025 and 2026! There, it was presented for the world to see as one of the premier games to come out of the university's IMGD student body.
+                <br><br>
+            </p> 
 
         </div>   
     </div>
