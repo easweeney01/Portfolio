@@ -5,7 +5,7 @@ class MyFooter extends HTMLElement {
             <footer class="foot">
                 <h2 style="color:#fff; font-style: normal; text-align: center; margin-top: 1rem; margin-bottom: 0.5rem;">Contact Me</h2>
                 <hr/>
-                <p>Interested in business? Feel free to sent me an email at <a href="mailto:emanuelanthonysweeney@gmail.com">emanuelanthonysweeney@gmail.com</a>.</p>
+                <p>Feel free to send me an email at <a href="mailto:emanuelanthonysweeney@gmail.com">emanuelanthonysweeney@gmail.com</a>.</p>
                 <p>While you're here, why not look at my <a href="#" onclick="window.open('Assets/Resumes/CSResume-3-26.pdf')">resume</a>?</p>
                 
                 <div class="footdiv">
