@@ -3,6 +3,7 @@
     background-color: #1b1b1b;
     overscroll-behavior: none;
     overflow-x: hidden;
+    position:relative;
 }
 
 body {
@@ -524,4 +525,11 @@ table {
     .otherproject {
         flex-direction: column;
     }
+}
+
+.navlink {
+    justify-content: right;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
