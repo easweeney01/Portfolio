@@ -66,86 +66,118 @@
             <h1 style="color:#f88; font-weight:bold; text-align: center;">HELL'S ARENA</h1><br>
 
             <img src="Assets/Projects/Hell's Arena.png" class="centerimg"/>
-            <p style="text-align: left; ">
+            <div class="content">
+                <p>
                 Hell's Arena is a top-down, arcade-action wave combat game. As a man trapped in the underworld, you are forced to fight against hordes of demons in their gladiatorial games. Slice, shoots, roll, and use items as you do battle with the horde, upgrading your abilities between waves.
                 <br/><br>
+                </p>
 
                 <h2 style="margin-bottom: 0.5rem;">My Role</h2>
-                As the lead developer, I worked tirelessly on most gameplay elements such as hitboxes, enemy AI, items, and sound design. <br><br>
+                <p>As the lead developer, I worked tirelessly on most gameplay elements such as hitboxes, enemy AI, items, and sound design. <br><br>
                 I programmed most of the player's movement and controls short of basic walking -- that was programmed by Bharat Monavarthi. I gave our character the abilities to roll, slash, and shoot magic from a limited mana pool.<br><br>
                 Attacks are done with a custom-made hitbox object, which is programmed with a 'friendly' Boolean variable that decides whether the attack hits the enemy or the player. It also has other attributes such as knockback strength, damage, and duration.<br>
                 <br>
+                </p>
+                
                 <h2 style="margin-bottom: 0.5rem;">Devils, Demons, and Fiends</h2>
+                <p>
                 Enemies spawn in at the beginning of each round, with the type of enemy being selected at random. As the player completes waves, foes are more likely to use powerful special forms with their own gimmicks, denoted by a unique glow. I used Unreal Engine's pathfinding system to allow enemy characters to move in on your position, stop when they're in range, and strike.<br><br>
 
                 The foes that spawn in can take many forms:
-                <table>
-                    <thead>
-                         <tr><td colspan="2"><b>Demon</b></td><td colspan="4"><b>Special Variant</b></td></tr>
-                    </thead>
-                    <tr>
-                        <td><b>Imp</b></td><td>Weak, slow grunts that try to beat you at close range with their clubs.</td>
-                        <td><b>Healer</b></td><td>Imps that glow red and heal foes in proximity.</td>
-                        <td><b>Ranger</b></td><td>Imps that glow green and shoot magic projectiles from time to time.</td>
-                    </tr>
-                    <tr>
-                        <td><b>Giants</b></td><td colspan="3">Large, slow brutes that can take a lot of punishment and dish it out with explosive punches.</td>
-                        <td><b>Primed</b></td><td>Supercharged purple Giants that blow up in vicinity.</td>
-                    </tr>
-                    <tr>
-                        <td><b>Hounds</b></td><td colspan="3">Fragile yet terrifyingly fast, these beasts run humans down to take a bite out of them.</td>
-                        <td><b>Vulcan</b></td><td>Hot-footed Hounds that leave scorching flames on the earth they run.</td>
-                    </tr>
+                </p>
+                <div class=tablewrap>
+                    <table>
+                        <thead>
+                            <tr><td colspan="4"><b>Demon</b></td></tr>
+                        </thead>
+                        <tr>
+                            <td><b>Imp</b></td><td colspan="3">Weak, slow grunts that try to beat you at close range with their clubs.</td>
+                        </tr>
+                        <tr>
+                            <td><i>Healer Imp</i></td><td colspan="3">Imps that glow red and heal foes in proximity.</td>
+                        </tr>
+                        <tr>
+                            <td><i>Ranger Imp</i></td><td colspan="3">Imps that glow green and shoot magic projectiles from time to time.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Giant</b></td><td colspan="3">Large, slow brutes that can take a lot of punishment and dish it out with explosive punches.</td>
+                        </tr>
+                        <tr>
+                            <td><i>Primed Giant</i></td><td colspan="3">Supercharged purple Giants that blow up in vicinity.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Hound</b></td><td colspan="3">Fragile yet terrifyingly fast, these beasts run humans down to take a bite out of them.</td>
+                        </tr>
+                        <tr>
+                            <td><i>Vulcan Hound</i></td><td colspan="3">Hot-footed Hounds that leave scorching flames on the earth they run.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Hellbat</b></td><td colspan="3">Evasive foes that frequently fly up and over your range.</td>
+                        </tr>
+                        <tr>
+                            <td><i>Bombat</i></td><td colspan="3">Leatherwings that drop bombs from the air.</td>
+                        </tr>
+                    </table>
+                </div>
 
-                    <tr>
-                        <td><b>Leatherwings</b></td><td colspan="3">Evasive foes that frequently fly up and over your range.</td>
-                        <td><b>Bombat</b></td><td>Leatherwings that drop bombs from the air.</td>
-                    </tr>
-                </table>
                 <br>
-                As an additional threat, players who stand still for too long will find a field of spikes under their feet. Yeouch!<br>
+                <p>As an additional threat, players who stand still for too long will find a field of spikes under their feet. Yeouch!<br>
                 <br>
+                </p>
+
                 <h2 style="margin-bottom: 0.5rem;">Saving Graces</h2>
+                <p>
                 I also developed the game's subweapons, which are equipped between rounds and cost mana to use. These include:
                 <br>
-                <table width="100%">
-                    <thead>
-                         <tr><td><b>Item</b></td><td><b>Usage</b></td></tr>
-                    </thead>
-                    <tr>
-                        <td><b>Boomerang Axe</b></td>
-                        <td>A massive blade that returns soon after a throw.</td>
-                    </tr>
-                    <tr>
-                        <td><b>Bomb</b></td>
-                        <td>A thrown explosive that detonates with time.</td>
-                    </tr>
-                    <tr>
-                        <td><b>Elixir</b></td>
-                        <td>A drink that heals the user's life energy.</td>
-                    </tr>
-                    <tr>
-                        <td><b>Lightning Dagger</b></td>
-                        <td>A dagger that lets the user slash and dash through foes at light speed.</td>
-                    </tr>
-                    <tr>
-                        <td><b>Crucifix</b></td>
-                        <td>A holy artifact that destroys nearby foes with a massive blast of holy light.</td>
-                    </tr>
-                </table><br>
+                </p>
+
+                <div class=tablewrap>
+                    <table width="100%">
+                        <thead>
+                            <tr><td><b>Item</b></td><td><b>Usage</b></td></tr>
+                        </thead>
+                        <tr>
+                            <td><b>Boomerang Axe</b></td>
+                            <td>A massive blade that returns soon after a throw.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Bomb</b></td>
+                            <td>A thrown explosive that detonates with time.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Elixir</b></td>
+                            <td>A drink that heals the user's life energy.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Lightning Dagger</b></td>
+                            <td>A dagger that lets the user slash and dash through foes at light speed.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Crucifix</b></td>
+                            <td>A holy artifact that destroys nearby foes with a massive blast of holy light.</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <br>
     
                 <h2 style="margin-bottom: 0.5rem;">Atmosphere</h2>
+                <p>
                 Near the end of the game's development, I also added atmospheric details such as orange embers flowing in the wind. <br><br>
                 Souls taking the form of multicolored orbs slowly descend from the sky for the player to guard, gaining a bit of health back as a result. This addition was made in order to encourage players to move more around the map.<br><br>
+                </p>
 
                 <h2 style="margin-bottom: 0.5rem;">Sound Design</h2>
+                <p>
                 I also worked as this game's sole sound designer. To add some more flavor, I took up the role as the voice actor for all of the game's characters and a fiendish announcer.<br>
                 <br>
                 I'm particularly proud of my work as the announcer, as I put a lot of work into making fitting lines for each situation. He insults the human when they do poorly, hypes up the games when they begin, reacts in disbelief upon seeing the human get a crucifix, and shouts in pain after they actually use it.
                 I used Reaper to edit the game's voice lines, with a mixture of Splice, Freesound, and Zapsplat to put together the remaining sounds.
 
                 <br><br>
-            </p> 
+                </p> 
+            </div>
+            
 
         </div>   
     </div>
