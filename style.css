@@ -457,3 +457,9 @@ td {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.otherproj {
+    width:300px; 
+    flex-shrink: 0;
+    border-radius: 5px;
+}
